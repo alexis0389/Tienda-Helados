@@ -1,0 +1,20 @@
+function obtener()
+{
+    let cantidad = document.getElementById("numero");
+    saludo.innerHTML = `Gracias por su compra, le esperamos pronto`;
+    if (cantidad.value >= 2)
+    {
+        plural = "helados";
+    }
+    else
+    {
+        plural = "helado";
+    }
+    nombreCompra.innerHTML = `su compra es de ${cantidad.value} ${plural} sin topping`;
+    comprar.style.display = "none";
+    mas.style.display= "none";
+    cantidad.style.display = "none";
+    menos.style.display = "none";
+    cantidadPedido.style.display = "none";
+    volver.style.top = "75px";
+}
