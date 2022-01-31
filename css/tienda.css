@@ -47,7 +47,7 @@ header
 }
 body
 {
-    background-image: url(../imagenes/fondo.jpg);
+    background-image: url("../imagenes/fondo.jpg");
     background-size: cover;
 }
 .eleccion

@@ -17,12 +17,12 @@ menosB.addEventListener("click", disminuir);
 
 function index()
 {
-    window.location = "../html/index.html";
+    window.location = "../index.html";
 }
 
 function atras()
 {
-    window.location = "../html/index.html";
+    window.location = "../index.html";
 }
 
 function aumentar()

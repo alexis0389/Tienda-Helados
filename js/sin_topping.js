@@ -10,19 +10,18 @@ let logoT = document.getElementById("logo");
 
 logoT.addEventListener("click", index);
 volver.addEventListener("click", atras);
-// comprar.addEventListener("click", carrito);
 mas.addEventListener("click", aumentar);
 menos.addEventListener("click", disminuir);
 
 
 function index()
 {
-    window.location = "../html/index.html";
+    window.location = "../index.html";
 }
 
 function atras()
 {
-    window.location = "../html/index.html";
+    window.location = "../index.html";
 }
 
 var precioNuevo;
@@ -55,8 +54,3 @@ function disminuir()
         menos.style.visibility = "hidden";
     }
 }
-
-// function carrito()
-// {
-//     console.log("Hola");
-// }

@@ -16,31 +16,31 @@ edukem.addEventListener("click", () => precios("edukem"));
 
 function index()
 {
-    window.location = "../html/index.html";
+    window.location = './index.html';
 }
 function topping()
 {
-    window.location = "../html/sin_topping.html";
+    window.location = "./html/sin_topping.html";
 }
 function oreoTopping()
 {
-    window.location = "../html/oreo.html";
+    window.location = "./html/oreo.html";
 }
 function kitkatTopping()
 {
-    window.location = "../html/kit_kat.html";
+    window.location = "./html/kit_kat.html";
 }
 function brownieTopping()
 {
-    window.location = "../html/brownie.html";
+    window.location = "./html/brownie.html";
 }
 function lacasitosTopping()
 {
-    window.location = "../html/lacasitos.html";
+    window.location = "./html/lacasitos.html";
 }
 function edukemTopping()
 {
-    window.location = "../html/edukem.html";
+    window.location = "./html/edukem.html";
 }
 
 function precios(opcionUsuario)
